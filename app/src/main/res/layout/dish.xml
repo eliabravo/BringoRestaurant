@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="50dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dish Name"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etDishDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dish Description"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etDishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="number"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etDishQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available quantity"
+        android:inputType="number"
+        android:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/dishPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
